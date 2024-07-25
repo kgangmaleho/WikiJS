@@ -1,6 +1,6 @@
 #!/bin/bash
 
-FOLDER="/mnt/c/Users/kgang.maleho/Downloads/Docs/"
+FOLDER="/mnt/c/Users/kgang.maleho/Downloads/Docs/converted/WikiJS/"
 
 MEDIA_DIR="src"
 mkdir -p "$MEDIA_DIR"
