@@ -14,7 +14,7 @@ find "$FOLDER" -maxdepth 1 -type f -name "*.docx" | while read -r FILE; do
 
 	BASENAME=$(basename "$FILE" .docx)
 
-	pandoc -f docx -t gfm "$FILE" -o "$FOLDER/$BASENAME.markdown" --extract-media="$MEDIA_DIR"
+	pandoc -f docx -t gfm "$FILE" -o "$FOLDER/$BASENAME.md" --extract-media="$MEDIA_DIR"
 done
 
 echo "Conversion Complete"
